@@ -19,6 +19,7 @@ namespace QL_LOP.GUI
         {
             InitializeComponent();
         }
+        //Ghi chú GitHub thay đổi
         public void DanhSachSinhVien()
         {
             DataTable dt = new DataTable();
