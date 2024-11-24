@@ -117,10 +117,15 @@ namespace QL_LOP.GUI
         private void btthoat_Click(object sender, EventArgs e)
         {
             DialogResult kq = MessageBox.Show("Bạn có muốn thoát chương trình", "Xác nhận thoát", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-            if(kq == DialogResult.Yes)
+            if (kq == DialogResult.Yes)
             {
                 this.Close();
             }
+        }
+
+        private void rdnu_CheckedChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

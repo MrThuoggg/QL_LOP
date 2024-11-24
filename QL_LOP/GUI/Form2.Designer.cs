@@ -97,11 +97,12 @@
             rdnu.AutoSize = true;
             rdnu.Location = new Point(300, 204);
             rdnu.Name = "rdnu";
-            rdnu.Size = new Size(50, 24);
+            rdnu.Size = new Size(117, 24);
             rdnu.TabIndex = 3;
             rdnu.TabStop = true;
-            rdnu.Text = "Nữ";
+            rdnu.Text = "Minh Thuong";
             rdnu.UseVisualStyleBackColor = true;
+            rdnu.CheckedChanged += rdnu_CheckedChanged;
             // 
             // btthem
             // 
