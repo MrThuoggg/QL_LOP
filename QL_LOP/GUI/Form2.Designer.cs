@@ -86,10 +86,10 @@
             rdnam.AutoSize = true;
             rdnam.Location = new Point(147, 204);
             rdnam.Name = "rdnam";
-            rdnam.Size = new Size(62, 24);
+            rdnam.Size = new Size(104, 24);
             rdnam.TabIndex = 3;
             rdnam.TabStop = true;
-            rdnam.Text = "Nam";
+            rdnam.Text = "Duy Thuan ";
             rdnam.UseVisualStyleBackColor = true;
             // 
             // rdnu
