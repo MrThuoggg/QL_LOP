@@ -33,6 +33,7 @@ namespace QL_LOP.GUI
             cblophoc.DataSource = dt;
             cblophoc.ValueMember = "MaLop";
             cblophoc.DisplayMember = "TenLop";
+            //danh sch lop
 
         }
         private void Form2_Load(object sender, EventArgs e)
