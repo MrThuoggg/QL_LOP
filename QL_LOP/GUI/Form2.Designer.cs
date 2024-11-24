@@ -41,52 +41,53 @@
             btcapnhat = new Button();
             btthoat = new Button();
             dgdanhsachsinhvien = new DataGridView();
+            treeView1 = new TreeView();
             ((System.ComponentModel.ISupportInitialize)dgdanhsachsinhvien).BeginInit();
             SuspendLayout();
             // 
             // tbmasv
             // 
-            tbmasv.Location = new Point(147, 62);
+            tbmasv.Location = new Point(165, 65);
             tbmasv.Name = "tbmasv";
             tbmasv.ReadOnly = true;
-            tbmasv.Size = new Size(270, 27);
+            tbmasv.Size = new Size(303, 29);
             tbmasv.TabIndex = 0;
             // 
             // tbhoten
             // 
-            tbhoten.Location = new Point(147, 129);
+            tbhoten.Location = new Point(165, 135);
             tbhoten.Name = "tbhoten";
-            tbhoten.Size = new Size(270, 27);
+            tbhoten.Size = new Size(303, 29);
             tbhoten.TabIndex = 0;
             // 
             // tbnoisinh
             // 
-            tbnoisinh.Location = new Point(730, 129);
+            tbnoisinh.Location = new Point(821, 135);
             tbnoisinh.Name = "tbnoisinh";
-            tbnoisinh.Size = new Size(229, 27);
+            tbnoisinh.Size = new Size(257, 29);
             tbnoisinh.TabIndex = 0;
             // 
             // dtngaysinh
             // 
-            dtngaysinh.Location = new Point(730, 62);
+            dtngaysinh.Location = new Point(821, 65);
             dtngaysinh.Name = "dtngaysinh";
-            dtngaysinh.Size = new Size(229, 27);
+            dtngaysinh.Size = new Size(257, 29);
             dtngaysinh.TabIndex = 1;
             // 
             // cblophoc
             // 
             cblophoc.FormattingEnabled = true;
-            cblophoc.Location = new Point(730, 200);
+            cblophoc.Location = new Point(821, 210);
             cblophoc.Name = "cblophoc";
-            cblophoc.Size = new Size(229, 28);
+            cblophoc.Size = new Size(257, 29);
             cblophoc.TabIndex = 2;
             // 
             // rdnam
             // 
             rdnam.AutoSize = true;
-            rdnam.Location = new Point(147, 204);
+            rdnam.Location = new Point(165, 214);
             rdnam.Name = "rdnam";
-            rdnam.Size = new Size(104, 24);
+            rdnam.Size = new Size(62, 24);
             rdnam.TabIndex = 3;
             rdnam.TabStop = true;
             rdnam.Text = "Duy Thuan ";
@@ -95,9 +96,9 @@
             // rdnu
             // 
             rdnu.AutoSize = true;
-            rdnu.Location = new Point(300, 204);
+            rdnu.Location = new Point(338, 214);
             rdnu.Name = "rdnu";
-            rdnu.Size = new Size(117, 24);
+            rdnu.Size = new Size(50, 24);
             rdnu.TabIndex = 3;
             rdnu.TabStop = true;
             rdnu.Text = "Minh Thuong";
@@ -106,9 +107,9 @@
             // 
             // btthem
             // 
-            btthem.Location = new Point(147, 266);
+            btthem.Location = new Point(165, 279);
             btthem.Name = "btthem";
-            btthem.Size = new Size(108, 55);
+            btthem.Size = new Size(122, 58);
             btthem.TabIndex = 4;
             btthem.Text = "THEM";
             btthem.UseVisualStyleBackColor = true;
@@ -116,9 +117,9 @@
             // 
             // btghi
             // 
-            btghi.Location = new Point(322, 266);
+            btghi.Location = new Point(362, 279);
             btghi.Name = "btghi";
-            btghi.Size = new Size(108, 55);
+            btghi.Size = new Size(122, 58);
             btghi.TabIndex = 4;
             btghi.Text = "GHI";
             btghi.UseVisualStyleBackColor = true;
@@ -126,9 +127,9 @@
             // 
             // btxoa
             // 
-            btxoa.Location = new Point(500, 266);
+            btxoa.Location = new Point(562, 279);
             btxoa.Name = "btxoa";
-            btxoa.Size = new Size(108, 55);
+            btxoa.Size = new Size(122, 58);
             btxoa.TabIndex = 4;
             btxoa.Text = "XOA";
             btxoa.UseVisualStyleBackColor = true;
@@ -136,9 +137,9 @@
             // 
             // btcapnhat
             // 
-            btcapnhat.Location = new Point(690, 266);
+            btcapnhat.Location = new Point(776, 279);
             btcapnhat.Name = "btcapnhat";
-            btcapnhat.Size = new Size(108, 55);
+            btcapnhat.Size = new Size(122, 58);
             btcapnhat.TabIndex = 4;
             btcapnhat.Text = "CAP NHAT";
             btcapnhat.UseVisualStyleBackColor = true;
@@ -146,9 +147,9 @@
             // 
             // btthoat
             // 
-            btthoat.Location = new Point(869, 266);
+            btthoat.Location = new Point(978, 279);
             btthoat.Name = "btthoat";
-            btthoat.Size = new Size(108, 55);
+            btthoat.Size = new Size(122, 58);
             btthoat.TabIndex = 4;
             btthoat.Text = "THOAT";
             btthoat.UseVisualStyleBackColor = true;
@@ -157,18 +158,26 @@
             // dgdanhsachsinhvien
             // 
             dgdanhsachsinhvien.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgdanhsachsinhvien.Location = new Point(147, 361);
+            dgdanhsachsinhvien.Location = new Point(165, 379);
             dgdanhsachsinhvien.Name = "dgdanhsachsinhvien";
             dgdanhsachsinhvien.RowHeadersWidth = 51;
-            dgdanhsachsinhvien.Size = new Size(812, 233);
+            dgdanhsachsinhvien.Size = new Size(914, 245);
             dgdanhsachsinhvien.TabIndex = 5;
             dgdanhsachsinhvien.CellContentClick += dgdanhsachsinhvien_CellContentClick;
             // 
+            // treeView1
+            // 
+            treeView1.Location = new Point(520, 65);
+            treeView1.Name = "treeView1";
+            treeView1.Size = new Size(230, 174);
+            treeView1.TabIndex = 6;
+            // 
             // Form2
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(9F, 21F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1085, 606);
+            ClientSize = new Size(1221, 636);
+            Controls.Add(treeView1);
             Controls.Add(dgdanhsachsinhvien);
             Controls.Add(btthoat);
             Controls.Add(btcapnhat);
@@ -205,5 +214,6 @@
         private Button btcapnhat;
         private Button btthoat;
         private DataGridView dgdanhsachsinhvien;
+        private TreeView treeView1;
     }
 }
