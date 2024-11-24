@@ -26,7 +26,7 @@ namespace QL_LOP.GUI
         }
         private void Form1_Load(object sender, EventArgs e)
         {
-            DanhSachLopHoc();
+            DanhSachLopHoc();//ghu chu form 1 load 
         }
 
         private void dgdanhsachlop_CellContentClick(object sender, DataGridViewCellEventArgs e)
